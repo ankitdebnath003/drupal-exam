@@ -1,0 +1,31 @@
+uuid: 8825cb5f-2927-44d2-a16e-34fecb46c412
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.leaves
+    - node.type.salary
+    - node.type.salary_employee
+  module:
+    - admin_toolbar_search
+    - block
+    - node
+    - toolbar
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer blocks'
+  - 'administer users'
+  - 'create leaves content'
+  - 'create salary content'
+  - 'create salary_employee content'
+  - 'delete own salary content'
+  - 'delete own salary_employee content'
+  - 'edit own salary content'
+  - 'edit own salary_employee content'
+  - 'use admin toolbar search'

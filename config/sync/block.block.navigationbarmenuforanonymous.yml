@@ -1,0 +1,33 @@
+uuid: 3c77a1fb-6ede-491c-bb5d-9dbbc85cb1f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.navigation-bar-menu-for-anonymou
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap
+id: navigationbarmenuforanonymous
+theme: bootstrap
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:navigation-bar-menu-for-anonymou'
+settings:
+  id: 'system_menu_block:navigation-bar-menu-for-anonymou'
+  label: 'Navigation Bar Menu For Anonymous'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

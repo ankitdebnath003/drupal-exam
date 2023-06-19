@@ -1,0 +1,18 @@
+uuid: 2fdc470e-6271-4154-85f9-6a2bdf48a3d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.leaves
+id: node.leaves.title
+field_name: title
+entity_type: node
+bundle: leaves
+label: Subject
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: f9b274c8-343d-4334-9445-07e0516bd858
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+id: user.field_it_role
+field_name: field_it_role
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: SD
+      label: SD
+    -
+      value: SD1
+      label: SD1
+    -
+      value: Analyst
+      label: Analyst
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

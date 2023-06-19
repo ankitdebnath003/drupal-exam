@@ -1,0 +1,8 @@
+uuid: c42b3531-7595-4162-82f3-0c98c3f0f50c
+langcode: en
+status: true
+dependencies: {  }
+id: navigation-bar-menu
+label: 'Navigation Bar Menu For HR'
+description: ''
+locked: false

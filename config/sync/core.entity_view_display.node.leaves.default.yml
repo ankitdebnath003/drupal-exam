@@ -1,0 +1,30 @@
+uuid: abc715fd-f5b0-4e43-a471-a989cee88594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.leaves.field_leave_date
+    - node.type.leaves
+  module:
+    - datetime
+    - user
+id: node.leaves.default
+targetEntityType: node
+bundle: leaves
+mode: default
+content:
+  field_leave_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: olivero_medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
