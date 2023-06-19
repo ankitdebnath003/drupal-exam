@@ -1,0 +1,22 @@
+uuid: b9a7c9ac-93f1-44b9-93e3-55f3c01bd21a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: salary
+label: Salary
+type: 'canonical_entities:node'
+pattern: '/salary/[node:field_employee]'
+selection_criteria:
+  aac1f7ef-b080-46ea-80d0-13ce1abb0a09:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: aac1f7ef-b080-46ea-80d0-13ce1abb0a09
+    context_mapping:
+      node: node
+    bundles:
+      salary: salary
+selection_logic: and
+weight: -5
+relationships: {  }

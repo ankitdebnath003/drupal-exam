@@ -1,0 +1,17 @@
+uuid: 057642ec-911c-4cd2-9cf3-e00af63de575
+langcode: en
+status: false
+dependencies: {  }
+id: development_configuration
+label: 'Dev Split'
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/split/dev
+module:
+  webform_ui: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.site

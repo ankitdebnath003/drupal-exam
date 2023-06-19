@@ -1,0 +1,21 @@
+uuid: c11824bc-10f9-4004-ba16-156163855d61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary_date
+    - node.type.salary_employee
+  module:
+    - datetime
+id: node.salary_employee.field_salary_date
+field_name: field_salary_date
+entity_type: node
+bundle: salary_employee
+label: 'Salary Date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

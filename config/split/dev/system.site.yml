@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: dd6f5b17-63ad-4a7a-899c-a9556a555621
+name: 'Innoraft Employee Management Portal'
+mail: ankit.debnath@innoraft.com
+slogan: ''
+page:
+  403: /node/1
+  404: /node/2
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

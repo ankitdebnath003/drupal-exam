@@ -1,0 +1,8 @@
+uuid: 237abe11-0911-4956-9b18-eb22d92fe955
+langcode: en
+status: true
+dependencies: {  }
+id: navigation-bar-menu-for-anonymou
+label: 'Navigation Bar Menu For Anonymous'
+description: ''
+locked: false

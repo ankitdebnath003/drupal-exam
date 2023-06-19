@@ -1,0 +1,14 @@
+uuid: ace7c2fb-3d7c-46e4-b1f6-d0e2645b7968
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: for_user_name
+label: 'For User name'
+type: 'canonical_entities:user'
+pattern: '/user/[user:account-name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

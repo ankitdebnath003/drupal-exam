@@ -1,0 +1,14 @@
+uuid: 1898da17-dbe1-4e2d-b269-dbc0d28f424c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.leaves
+  module:
+    - node
+id: employee
+label: Employee
+weight: 5
+is_admin: null
+permissions:
+  - 'create leaves content'
